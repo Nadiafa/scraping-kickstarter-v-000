@@ -1,10 +1,8 @@
 require 'nokogiri'
-require 'open-uri'
-
-require-relative './fixtures/kickstarter.html'
 
 def create_project_hash
-  
+  html = File.read('fixtures/kickstarter.html')
+  kickstarter = Nokogiri::HTML(html)
   projects = {}
 end
 
