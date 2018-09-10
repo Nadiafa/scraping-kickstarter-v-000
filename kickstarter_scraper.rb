@@ -6,11 +6,11 @@ def create_project_hash
   # kickstarter = Nokogiri::HTML(html)
   kickstarter = Nokogiri::HTML(File.read('fixtures/kickstarter.html'))
   
-  
+  binding.pry
   
 end
 
-binding.pry
+
 create_project_hash
 
 
