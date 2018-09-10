@@ -1,3 +1,4 @@
+require 'pry'
 require 'nokogiri'
 
 def create_project_hash
